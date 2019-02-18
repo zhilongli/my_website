@@ -1,0 +1,44 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+<h1>Travels</h1>
+<ul>
+ Over the winter break of 2018 I travelled to a few countries in Europe. It was
+ my first time stepping into Europe, so everything seemed novel to me. While it
+ opened my eyes to the advanced societies and infrastructures built in Europe, it
+ also got me thinking how differences in culture, history, and governance shaped
+ each of the cities.
+
+ <br>
+ <br>
+ Although I travelled mostly on a budget, I managed to cover 4 countries over 10 days
+ comfortably.
+ <li>
+  <<strong>Munich, Germany</strong>>
+   <figure>
+    {% load static %}
+    <img src="{% static 'images/train.jpg' %}" alt="Munich Train" style="width:518px;height:345px;">
+    <<figcaption>German engineering in its full glory. The train rides are incredibly smooth and quiet.</figcaption>
+   </figure>
+
+
+   <br><br>
+ </li>
+ <li>
+  <<strong>Salzburg, Austria</strong>>
+   <br><br>
+ </li>
+ <li>
+  <<strong>Copenhagen, Denmark</strong>>
+   <br><br>
+ </li>
+ <li>
+  <<strong>London, UK</strong>>
+   <br><br>
+   Coincidentally, I was reading "Empress Dowager Cixi: The Concubine who Launched Modern China"
+   right before arriving in the UK. Juxtaposing the societies of China and the UK
+   today (China has an even longer history than the UK), it struck me how a weak
+   government can unravel all the nation's past glory and destroy its identity/culture.
+ </li>
+</ul>
+{% endblock %}

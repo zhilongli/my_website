@@ -1,0 +1,13 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+  <h1>Zhilong's Homepage</h1>
+  <p>Welcome to my personal website, where you can find information about who
+  I am and what I do. </p>
+  <h2>About me</h2>
+  <ul>
+    {{about_me}}
+  </ul>
+  {% load static %}
+  <img src="{% static 'images/cover.jpg' %}" alt="Salzburg" style="width:518px;height:345px;">
+{% endblock %}
